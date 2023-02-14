@@ -16,6 +16,24 @@ body {
     background-color: #fff;
 }
 
+#flexImgHeader {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#imgHeaderPol {
+    height: 110px;
+    width: 410px;
+}
+
+#imgHeaderUpiita {
+    height: 110px;
+    width: 125px;
+}
+
 /* Drop down */
 .dropdown-btn {
     /* background-color: #4CAF50; */
