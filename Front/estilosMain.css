@@ -164,7 +164,7 @@ body {
 #flexOtrosAvisos {
     background-color: #333333;
     width: 100%;
-    height: 550px;
+    height: 377px;
 
     display: flex;
     justify-content: space-evenly;
@@ -201,4 +201,11 @@ body {
 
     display: table-cell;
     vertical-align: middle;
+}
+
+
+/* Redes sociales */
+#redesSociales {
+    width: 100%;
+    height: 200px;
 }
