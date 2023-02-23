@@ -178,13 +178,13 @@ body {
 }
 
 .cartasOtrosAvisos {
-    background-color: green;
+    background-color: 333333; /* Era de un color distinto para orientarse de que tamaño
+                                eran las cartas */
     height: 300px;
     width: 210px;
 
     color: white;
     text-align: center;
-    display: table;
 }
 
 #contenedorFlex {
@@ -196,11 +196,16 @@ body {
     font-weight: bold;
 }
 
+.descripcionCartasOtrosAvisos {
+    line-height: 24px;
+    font-size: 16px;
+}
+
 #contenedorContenido {
     height: 100%;
 
-    display: table-cell;
-    vertical-align: middle;
+    margin-top: 45px; /* Esto fue para que el titulo de las cartas de otros
+    avisos quedaran a la misma altura verticalment */
 }
 
 
