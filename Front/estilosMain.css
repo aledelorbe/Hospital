@@ -150,6 +150,9 @@ body {
     height: 100%;
 }
 
+.cartasAvisos:hover {
+
+}
 
 /* Flex para las cartas avisos */
 #flexAvisos {
@@ -178,9 +181,9 @@ body {
 }
 
 .cartasOtrosAvisos {
-    background-color: 333333; /* Era de un color distinto para orientarse de que tamaño
+    background-color: #c41e1e; /* Era de un color distinto para orientarse de que tamaño
                                 eran las cartas */
-    height: 300px;
+    height: 280px;
     width: 210px;
 
     color: white;
@@ -202,10 +205,18 @@ body {
 }
 
 #contenedorContenido {
-    height: 100%;
+    /* background-color: #0C231E; */
+    /* height: 100%; */
+    height: 100px;
 
     margin-top: 45px; /* Esto fue para que el titulo de las cartas de otros
     avisos quedaran a la misma altura verticalment */
+    /* margin-bottom: 45px; */
+}
+
+
+.cartasOtrosAvisos:hover {
+    cursor: pointer;
 }
 
 /* FOOTER */
