@@ -280,11 +280,12 @@ img {
 .descripcionFH {
     font-size: 16px;
     line-height: 25px;
-    /* margin-bottom: 0px;
-    margin-top: 0px; */
-    /* margin-right: ; */
-    /* display: inline; */
-    /* display: inline-block; */
+    display: inline;
+}
+
+.content-Flex-descripcionFH {
+    display: flex;
+    flex-direction: column;
 }
 
 /* Parte de abajo del footer */
@@ -296,21 +297,3 @@ img {
 #privacidad {
     height: 85px;
 }
-
-
-.contenedor {
-    width: 200px;
-
-    display: flex;
-    flex-direction: column;
-}
-
-.xd {
-    background-color: #0C231E;
-}
-
-.ir{
-    background-color: #3e8e41;
-    display: inline;
-}
-
