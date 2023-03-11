@@ -34,6 +34,10 @@ body {
     width: 125px;
 }
 
+img {
+    cursor: pointer;
+}
+
 /* Drop down */
 .dropdown-btn {
     background-color: #13322B;
@@ -140,7 +144,8 @@ body {
 }
 
 .cartasAvisos {
-    background-color: green;
+    /* background-color: green; */
+    background-color: white;
     height: 430px;
     width: 265px;
 }
@@ -150,8 +155,9 @@ body {
     height: 100%;
 }
 
-.cartasAvisos:hover {
-
+.imgesCartasAvisos:hover {
+    opacity: 0.80;
+    cursor: pointer;
 }
 
 /* Flex para las cartas avisos */
@@ -223,7 +229,6 @@ body {
 
 .centroTextVert {
     text-align: center;
-
     line-height: 16px;
     letter-spacing: 0px;
 }
@@ -247,6 +252,11 @@ body {
     justify-content: space-evenly;
     align-items: center;
 }
+
+#flexRedesSociales svg {
+    cursor: pointer;
+ }
+
 
 /* Parte de en medio del footer */
 #flexFooter {
