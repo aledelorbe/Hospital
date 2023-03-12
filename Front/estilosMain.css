@@ -288,6 +288,11 @@ img {
     flex-direction: column;
 }
 
+.descripcionFH:hover {
+    cursor: pointer;
+    color: rgb(117, 117, 241); 
+}
+
 /* Parte de abajo del footer */
 #footerDown {
     background-color: #13322B;
