@@ -1,0 +1,18 @@
+
+.grillaOpciones {
+    display: grid;
+    height: 650px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+
+    background-color: aqua;
+    grid-gap: 7px 7px; 
+}
+
+.contenidoGrilla {
+    background-color: black;
+}
+
+.firstImage {
+    background-image: url('https://cdn.euroinnova.edu.es/img/subidasEditor/medicina02-1659630380.webp');
+}
