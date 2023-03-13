@@ -7,12 +7,39 @@
 
     background-color: aqua;
     grid-gap: 7px 7px; 
+
+    /* justify-items: center; */
 }
 
 .contenidoGrilla {
     background-color: black;
+
+    display: table;
 }
 
 .firstImage {
-    background-image: url('https://cdn.euroinnova.edu.es/img/subidasEditor/medicina02-1659630380.webp');
+    background-image: url('https://elmedicointeractivo.com/wp-content/uploads/2022/05/gremio-medico-se-defiende--700x540.jpg');
+    background-size: cover;
 }
+
+.secondImage {
+    background-image: url('https://doctorweb.agency/assets/img/blog/directorio-de-doctores.jpg');
+    background-size: cover;
+}
+
+.thirdImage {
+    background-image: url('https://elcomercio.pe/resizer/_z_5iB-Zo-b1ZWnK_KI02xGQKqg=/580x330/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/IQHQIDNODVEPPM3MA3MRDKABKU.jpg');
+}
+
+.fourthImage {
+    background-image: url('https://images.ecestaticos.com/t5SPttdKoWWiDUPi9k0lx7OGsSY=/0x70:1716x1040/972x547/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F8db%2F8b6%2Faa5%2F8db8b6aa54b585253e15f79a68447aeb.jpg');
+    background-size: cover;
+}
+
+.textContentGrid {
+    text-align: center;
+
+    display: table-cell;
+    vertical-align: middle;
+}
+
