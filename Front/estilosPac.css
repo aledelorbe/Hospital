@@ -1,0 +1,19 @@
+
+.firstImagePac {
+    background-image: url('https://medlineplus.gov/images/Patientsafetynew_share.jpg');
+    background-size: cover;
+}
+
+.secondImagePac {
+    background-image: url('https://d2lcsjo4hzzyvz.cloudfront.net/blog/wp-content/uploads/2019/12/Me%CC%81dico-atendiendo-a-una-sen%CC%83ora-de-edad-760x508.jpg');
+    background-size: cover;
+}
+
+.thirdImagePac {
+    background-image: url('https://cuideo.com/wp-content/uploads/derechos-pacientes-hospital.jpg');
+}
+
+.fourthImagePac {
+    background-image: url('https://www.salesforce.com/content/dam/web/es_mx/blog/la-importancia-de-la-atencion-al-paciente.jpg');
+    background-size: cover;
+}
