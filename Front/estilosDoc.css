@@ -5,16 +5,14 @@
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
 
-    background-color: aqua;
-    /* grid-gap: 7px 7px;  */
-
-    /* justify-items: center; */
+    background-color: black;
 }
 
 .contenidoGrilla {
     background-color: black;
-
     display: table;
+
+    /* height: 100%; */
 }
 
 .firstImage {
@@ -39,8 +37,24 @@
 .textContentGrid {
     text-align: center;
     color: white;
-
     display: table-cell;
     vertical-align: middle;
+    font-size: 35px;
+    font-weight: bold;
+
+    /* Alternativa a display none */
+    opacity: 0;
 }
 
+.contenidoGrilla:hover {
+    opacity: 0.7;
+}
+
+.textContentGrid:hover {
+    opacity: 1;
+}
+
+.grillaOpciones a {
+    width: 100%;
+    text-decoration: none;
+ } 

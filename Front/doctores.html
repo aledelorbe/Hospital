@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hospital</title>
+    <title>Doctores</title>
     <link rel="stylesheet" href="estilosMain.css" type="text/css">
     <link rel="stylesheet" href="estilosDoc.css" type="text/css">
 </head>
@@ -28,38 +28,44 @@
             </a>
         
             <div class="dropdown">
-                <button class="dropdown-btn">
-                    Doctores
-                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-                        <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-                    </svg>
-                </button>
+                <a href="doctores.html">
+                    <button class="dropdown-btn">
+                        Doctores
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                        </svg>
+                    </button>
+                </a>
                 <div class="dropdown-content">
-                    <a href="#">Altas</a>
-                    <a href="#">Bajas</a>
-                    <a href="#">Actualizacion</a>
-                    <a href="#">Consulta</a>
+                    <a href="formularioAltasDoc.html">Altas</a>
+                    <a href="formularioBajasDoc.html">Bajas</a>
+                    <a href="formularioActualizacionesDoc.html">Actualizacion</a>
+                    <a href="formularioConsultasDoc.html">Consulta</a>
                 </div>
             </div>
         
             <div class="dropdown">
-                <button class="dropdown-btn">
-                    Pacientes
-                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-                        <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-                    </svg>
-                </button>
+                <a href="pacientes.html">
+                    <button class="dropdown-btn">
+                        Pacientes
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                        </svg>
+                    </button>
+                </a>
                 <div class="dropdown-content">
-                    <a href="#">Altas</a>
-                    <a href="#">Bajas</a>
-                    <a href="#">Actualizacion</a>
-                    <a href="#">Consulta</a>
+                    <a href="formularioAltasPac.html">Altas</a>
+                    <a href="formularioBajasPac.html">Bajas</a>
+                    <a href="formularioActualizacionesPac.html">Actualizacion</a>
+                    <a href="formularioConsultasPac.html">Consulta</a>
                 </div>
             </div>
 
-            <div class="dropdown">
-                <button class="dropdown-btn">Acerca de</button>
-            </div>
+            <a href="acercaDe.html">
+                <div class="dropdown">
+                    <button class="dropdown-btn">Acerca de</button>
+                </div>
+            </a>
         </div>
         
         <div id="nameSchool">
@@ -70,20 +76,19 @@
     
     <!-- BODY -->
     <div class="grillaOpciones">
-        <div class="contenidoGrilla firstImage">
+        <a href="formularioAltasDoc.html" class="contenidoGrilla firstImage">
             <p class="textContentGrid"> Altas </p>
-        </div>
-        <div class="contenidoGrilla secondImage">
-            bbbbb
-        </div>
-        <div class="contenidoGrilla thirdImage">
-            cccc
-        </div>
-        <div class="contenidoGrilla fourthImage">
-            dddd
-        </div>
+        </a>
+        <a href="formularioBajasDoc.html" class="contenidoGrilla secondImage">
+            <p class="textContentGrid"> Bajas </p>
+        </a>
+        <a href="formularioActualizacionesDoc.html" class="contenidoGrilla thirdImage">
+            <p class="textContentGrid"> Actualizaciones </p>
+        </a>
+        <a href="formularioConsultasDoc.html" class="contenidoGrilla fourthImage">
+            <p class="textContentGrid"> Consultas </p>
+        </a>
     </div>
-
 
 
     <!-- FOOTER -->
