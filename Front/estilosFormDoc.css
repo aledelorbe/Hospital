@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    backdrop-filter: blur(3px);
+}
+
+/* ALTAS */
+#fondoFormAltaDoc {
+    background: url('https://elmedicointeractivo.com/wp-content/uploads/2022/05/gremio-medico-se-defiende--700x540.jpg');
+    background-size: cover;
+}
+
+.formAltaDoc {
+    padding: 2rem 3rem;
+    color: #000;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 25px #222;
+    background-color: #eee;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formAltaDoc a{
+    height: 20px;
+}
+
+
+/* BAJAS */
+#fondoFormBajaDoc {
+    background-image: url('https://doctorweb.agency/assets/img/blog/directorio-de-doctores.jpg');
+    background-size: cover;
+}
+
+
+/* ACTUALIZACIONES */
+#fondoFormActualizacionDoc {
+    background-image: url('https://elcomercio.pe/resizer/_z_5iB-Zo-b1ZWnK_KI02xGQKqg=/580x330/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/IQHQIDNODVEPPM3MA3MRDKABKU.jpg');
+    background-size: cover;
+}
+
+
+/* CONSULTA */
+#fondoFormConsultaDoc {
+    background-image: url('https://images.ecestaticos.com/t5SPttdKoWWiDUPi9k0lx7OGsSY=/0x70:1716x1040/972x547/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F8db%2F8b6%2Faa5%2F8db8b6aa54b585253e15f79a68447aeb.jpg');
+    background-size: cover;
+}
+
