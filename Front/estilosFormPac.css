@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    backdrop-filter: blur(3px);
+}
+
+/* ALTAS */
+#fondoFormAltaPac {
+    background: url('https://medlineplus.gov/images/Patientsafetynew_share.jpg');
+    background-size: cover;
+}
+
+.formAltaPac {
+    padding: 2rem 3rem;
+    color: #000;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 25px #222;
+    background-color: #eee;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4E509C;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* BAJAS */
+#fondoFormBajaPac {
+    background-image: url('https://d2lcsjo4hzzyvz.cloudfront.net/blog/wp-content/uploads/2019/12/Me%CC%81dico-atendiendo-a-una-sen%CC%83ora-de-edad-760x508.jpg');
+    background-size: cover;
+}
+
+
+/* ACTUALIZACIONES */
+#fondoFormActualizacionPac {
+    background-image: url('https://cuideo.com/wp-content/uploads/derechos-pacientes-hospital.jpg');
+    background-size: cover;
+}
+
+
+/* CONSULTA */
+#fondoFormConsultaPac {
+    background-image: url('https://www.salesforce.com/content/dam/web/es_mx/blog/la-importancia-de-la-atencion-al-paciente.jpg');
+    background-size: cover;
+}
+
