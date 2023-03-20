@@ -1,0 +1,15 @@
+/* BODY */
+
+.cuerpo {
+    height: 650px;
+    background-color: rgb(142, 188, 214);
+    padding: 2rem 3rem;
+}
+
+.descripcionAD {
+    line-height: 25px;
+}
+
+li {
+    line-height: 25px;
+}
